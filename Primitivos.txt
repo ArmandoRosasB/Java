@@ -1,0 +1,20 @@
+Tipos de datos escalares que contienen un solo valor
+
+** enteros **
+    byte: 8 bits => Clase equivalente: Byte 
+    short: 16 bits => Clase equivalente: Short
+    int: 32 bits => Clase equivalente: Integer
+    long: 64 bits => Clase equivalente: Long
+
+** flotante **
+    float: precision simple => Clase equivalente: Float 
+    double: precision doble => Clase equivalente: Double
+
+** caracteres **
+    char: 16 bits => Clase equivalente: Character
+
+
+** booleanos **
+    boolean: 1 bit => Clase equivalente: Boolean
+        true || false
+
