@@ -1,4 +1,4 @@
-public class Primitivos {
+public class PrimitivosEnteros {
     public static void main(String[] args) {
         
         byte numeroByte = 127;
@@ -14,8 +14,8 @@ public class Primitivos {
         System.out.println("Numero short: " + numeroShort);
         System.out.println("Tipo short corresponde en bytes a " + Short.BYTES);
         System.out.println("Tipo short corresponde en bits a " + Short.SIZE);
-        System.out.println("Valor maximo de un byte: " + Short.MAX_VALUE);
-        System.out.println("Valor minimo de un byte: " + Short.MIN_VALUE);
+        System.out.println("Valor maximo de un short: " + Short.MAX_VALUE);
+        System.out.println("Valor minimo de un short: " + Short.MIN_VALUE);
 
         System.out.println();
 
@@ -23,8 +23,8 @@ public class Primitivos {
         System.out.println("Numero int: " + numeroInt);
         System.out.println("Tipo int corresponde en bytes a " + Integer.BYTES);
         System.out.println("Tipo int corresponde en bits a " + Integer.SIZE);
-        System.out.println("Valor maximo de un byte: " + Integer.MAX_VALUE);
-        System.out.println("Valor minimo de un byte: " + Integer.MIN_VALUE);
+        System.out.println("Valor maximo de un int: " + Integer.MAX_VALUE);
+        System.out.println("Valor minimo de un int: " + Integer.MIN_VALUE);
 
         System.out.println();
 
@@ -32,8 +32,8 @@ public class Primitivos {
         System.out.println("Numero long: " + numeroLong);
         System.out.println("Tipo long corresponde en bytes a " + Long.BYTES);
         System.out.println("Tipo long corresponde en bits a " + Long.SIZE);
-        System.out.println("Valor maximo de un byte: " + Long.MAX_VALUE);
-        System.out.println("Valor minimo de un byte: " + Long.MIN_VALUE);
+        System.out.println("Valor maximo de un long: " + Long.MAX_VALUE);
+        System.out.println("Valor minimo de un long: " + Long.MIN_VALUE);
 
         System.out.println();
          
