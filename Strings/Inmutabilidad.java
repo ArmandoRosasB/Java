@@ -34,6 +34,6 @@ public class Inmutabilidad {
         System.out.println("Resultado = " + resultado);
 
         String resultado3 = resultado.replace("a", "A");
-        System.out.println("REsultado3 = " + resultado3);
+        System.out.println("Resultado3 = " + resultado3);
     }
 }
