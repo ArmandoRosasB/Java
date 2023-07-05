@@ -35,7 +35,7 @@ public class SentenciasBucleEtiquetas {
             horas:
             while (j <= 8){
                 if (i == 6 || i == 7) {
-                    System.out.println("Dia " + i + ": DEscansamos el fin de semana");
+                    System.out.println("Dia " + i + ": Descansamos el fin de semana");
                     continue semana;
                 }
                 System.out.println("Dia " + i + ", trabajando a las " + j + "hrs. ");
