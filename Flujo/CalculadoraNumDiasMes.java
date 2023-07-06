@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class CalculadoraNumDiasMes {
     public static void main(String[] args) {
         int mes;

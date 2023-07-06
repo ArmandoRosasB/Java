@@ -1,0 +1,38 @@
+Clases Wrapper: Reprentan a un primitivo en forma de objeto.
+
+Clase Number (Integer, Double, Float, Long, Short, Byte)
+
+Metidos estaticos
+ - Integer.valueOf(12345) // Crea una instancia
+ - Integer.parseInt("12345") // Convierte a numero primitivo
+ - Integer.toString() // Regresa un String
+
+Metodos de la instancia
+ - intValue()
+ - longValue()
+ - floatValue()
+ - doubleValue()
+ - byteValue()
+ - shortValue()
+ - equals()
+
+Clase Character
+
+Metodos estaticos
+ - Character.valueOf() // Crea una instancia
+ - Character.isLowerCase()
+ - Character.isDigit()
+ - Character.isSpaceChar()
+
+Metodos de la instancia
+ - toString()
+ - equals()
+
+
+Clase Boolean
+
+Metodos estaticos
+ - Boolean.valueOf() // Crea una instancia
+
+
+
