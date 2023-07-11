@@ -33,7 +33,10 @@ public class AsignarPropiedadesDelSistema {
 
         } catch (Exception e) {
             // TODO: handle exception
-            System.out.println("No existe el archivo = " + e);
+
+            // Mensaje de error
+            System.err.println("No existe el archivo = " + e);
+            System.exit(1); // 1 = Error
         }
         
     }

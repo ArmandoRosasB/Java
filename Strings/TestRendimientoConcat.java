@@ -40,10 +40,14 @@ public class TestRendimientoConcat {
             sb.append(a).append(b).append("\n");
         }
 
+        // recolector de basura
+        System.gc();
+
         fin = System.currentTimeMillis();
         
         System.out.println("Tiempo de ejecucion utilizando StringBuilder: " + (fin - inicio) + "ms" );
  
         //System.out.println("sb = " + sb.toString());
+        System.exit(0);
     }
 }
