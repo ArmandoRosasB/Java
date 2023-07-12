@@ -10,7 +10,7 @@ public class EjecutarProgramaSO {
         try {
             
             if (System.getProperty("os.name").toLowerCase().startsWith("windows")){
-                proceso = rt.exec("notepad"); // Ejecuta un programay regresa una instancia de tipo Process
+                proceso = rt.exec("notepad"); // Ejecuta un programa y regresa una instancia de tipo Process
 
             } else if (System.getProperty("os.name").toLowerCase().startsWith("mac")) {
                 proceso = rt.exec("textedit");
