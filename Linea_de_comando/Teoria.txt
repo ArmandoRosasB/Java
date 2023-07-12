@@ -1,0 +1,14 @@
+.java -> Codigo fuente. Entendible para los programadores java
+.class -> Bytecode o lenguaje intermedio entre la maquina y el ser humano. 
+          Incomprensible para el ser humano. 
+
+binario -> Lenguaje de 0's y 1's.
+
+
+javac -> Compilador de java. Transforma el codigo fuente a bytecode
+java -> Ejecuta la aplicacion
+
+** Arreglar errores de acentos o caracteres especiales **
+
+Al momento de compilar incluir
+-encoding utf8
