@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14dcf5d-0ff7-49d3-91c8-403d19d6761e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Operadores/InstanceOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operadores/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaBucleEtiquetas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaForArreglo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaIfElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaSwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciasBuclesEtiquetasBuscar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +47,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
 }</component>
