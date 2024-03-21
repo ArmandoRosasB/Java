@@ -30,5 +30,6 @@ public class SentenciasBuclesEtiquetasBuscar {
 
         System.out.println("La palabra " + palabra + " fue encontrada " + cantidad_palabra +  " veces");
 
+
     }
 }

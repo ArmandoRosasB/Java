@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14dcf5d-0ff7-49d3-91c8-403d19d6761e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaBucleEtiquetas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaForArreglo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaIfElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaSwitchCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciaWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciasBuclesEtiquetasBuscar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_Wrapper/GetClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_Wrapper/WrapperBoolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_Wrapper/WrapperInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases_Wrapper/WrapperOperadoresRelacionales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flujo_de_control/SentenciasBuclesEtiquetasBuscar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flujo_de_control/SentenciasBuclesEtiquetasBuscar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +26,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Clases_Wrapper/GetClass.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Clases_Wrapper/WrapperBoolean.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
