@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14dcf5d-0ff7-49d3-91c8-403d19d6761e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ValorYReferencia/PasoPorReferencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValorYReferencia/PasoPorValor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fechas/UtilCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fechas/UtilDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fechas/UtilDateParse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +28,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Clases_Wrapper/GetClass.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Clases_Wrapper/WrapperBoolean.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Fechas/UtilDate.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,9 +47,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/armando/Desktop/untitled&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
