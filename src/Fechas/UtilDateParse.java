@@ -10,7 +10,7 @@ public class UtilDateParse {
         Scanner scanner = new Scanner(System.in);
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 
-        System.out.print("Ingresa una fecha con el formato yyyy-MM-dd: ");
+        System.out.println("Ingresa una fecha con el formato yyyy-MM-dd: ");
 
         try {
             Date fecha = df.parse(scanner.next());
@@ -29,7 +29,9 @@ public class UtilDateParse {
                 System.out.println("La fecha ingresada por el usuario es igual a la fecha actual");
             }
         } catch (ParseException e) {
-            e.printStackTrace();
+            System.err.println("La fecha tiene un formato incorrecto: " + e.getMessage());
+            // System.exit(1)
+            main(args);
         }
 
     }

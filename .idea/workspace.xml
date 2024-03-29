@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14dcf5d-0ff7-49d3-91c8-403d19d6761e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Fechas/UtilCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fechas/UtilDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fechas/UtilDateParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/System/AsignarPropiedadesDelSistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/System/EjecutarPrograma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/System/PropiedadesDelSistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/System/VariablesDeEntorno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/System/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fechas/UtilDateParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fechas/UtilDateParse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/src/Clases_Wrapper/GetClass.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Clases_Wrapper/WrapperBoolean.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Fechas/UtilDate.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/System/AsignarPropiedadesDelSistema.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
