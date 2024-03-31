@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14dcf5d-0ff7-49d3-91c8-403d19d6761e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Math/ClaseMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/MathRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linea_de_comandos/ArgumentosLineaDeComandos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linea_de_comandos/Calculadora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
