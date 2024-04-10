@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14dcf5d-0ff7-49d3-91c8-403d19d6761e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arreglos/ArregloEnteros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arreglos/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arreglos/Busqueda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arreglos/DesplazarPosicion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arreglos/DesplazarPosicion2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arreglos/IterandoArreglos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arreglos/NumeroMaximo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Matrices/BuscarElemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Matrices/MatricesColumnasVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Matrices/MatrizEnteros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
