@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Automovil auto_uno = new Automovil("Ford", "Mustang", Color.ROJO, TipoAutomovil.DEPORTIVO);
         Automovil auto_dos = new Automovil("Chevrolet", "Camaro", Color.NEGRO, TipoAutomovil.DEPORTIVO);
+        Automovil auto_tres = new Automovil("Ford", "Shelby", Color.BLANCO, TipoAutomovil.DEPORTIVO, new Motor(5.0, TipoMotor.BENCINA));
 
         auto_uno.setFabricante("Ford");
         auto_uno.setModelo("Mustang");
@@ -11,14 +12,17 @@ public class Main {
 
         System.out.println(auto_uno);
         System.out.println(auto_dos);
+        System.out.println(auto_tres);
 
         System.out.println(auto_uno.acelerar(2000));
         System.out.println(auto_dos.acelerar(1900));
+        System.out.println(auto_tres.acelerar(3000));
 
         System.out.println();
 
         System.out.println(auto_uno.frenar());
         System.out.println(auto_dos.frenar());
+        System.out.println(auto_tres.frenar());
         System.out.println();
 
         System.out.println("Son el mismo auto: " + (auto_uno.equals(auto_dos)));

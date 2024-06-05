@@ -2,11 +2,17 @@ package POO;
 
 public class Automovil {
         private final int id;
+
         private String fabricante;
         private String modelo;
         private Color color;
+
+        private Motor motor;
         private TipoAutomovil tipo;
-        private double cilindrada = 0;
+        private Tanque tanque;
+        private Persona conductor;
+        private Rueda[] ruedas;
+
         public static int total_autos;
         public static final int VELOCIDAD_MAXIMA_CARRETERA = 130;
         public static final  int VELOCIDAD_MAXIMA_CIUDAD = 80;
@@ -19,9 +25,9 @@ public class Automovil {
                 this.tipo = tipo;
         }
 
-        public Automovil(String fabricante, String modelo, Color color, TipoAutomovil tipo, double cilindrada){
+        public Automovil(String fabricante, String modelo, Color color, TipoAutomovil tipo, Motor motor){
                 this(fabricante, modelo, color, tipo);
-                this.cilindrada = cilindrada;
+                this.motor = motor;
         }
 
         public String getFabricante() {
@@ -36,8 +42,8 @@ public class Automovil {
                 return color;
         }
 
-        public double getCilindrada() {
-                return cilindrada;
+        public Motor getMotor() {
+                return motor;
         }
 
         public TipoAutomovil getTipo(){
@@ -56,8 +62,8 @@ public class Automovil {
                 this.modelo = modelo;
         }
 
-        public void setCilindrada(double cilindrada) {
-                this.cilindrada = cilindrada;
+        public void setCilindrada(Motor cilindrada) {
+                this.motor = cilindrada;
         }
 
         public void setTipoAutomovil(TipoAutomovil tipo){
@@ -83,9 +89,7 @@ public class Automovil {
                 sb.append("Color - ").append(this.color).append('\n');
                 sb.append("Tipo - ").append(this.tipo.getNombre()).append(" de ").append(this.tipo.getNumeroPuertas()).append(" puertas").append('\n');
 
-                if (cilindrada != 0) {
-                        sb.append("Cilindrada - ").append(this.cilindrada).append('\n');
-                }
+                if (motor != null) sb.append("Cilindrada - ").append(this.motor.getCilindrada()).append('\n');
 
                 return sb.toString();
         }
