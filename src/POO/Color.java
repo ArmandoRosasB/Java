@@ -1,5 +1,6 @@
 package POO;
 
+
 public enum Color {
     ROJO("Rojo"),
     BLANCO("Blanco"),
