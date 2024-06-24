@@ -1,6 +1,6 @@
 package com.arosas.paquetes.hogar;
 
-public class Gato {
+class Gato { // Solo puede existir dentro del paquete 'hogar'. No puede salir al jardin
     private String color;
 
     public Gato (String color) {
