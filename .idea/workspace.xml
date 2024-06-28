@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a14dcf5d-0ff7-49d3-91c8-403d19d6761e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/arosas/appfacturas/modelos/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/arosas/appfacturas/modelos/Factura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/arosas/appfacturas/modelos/ItemFactura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/arosas/appfacturas/modelos/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/arosas/appfacturas/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/arosas/appfacturas/modelos/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/arosas/appfacturas/modelos/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/arosas/appfacturas/modelos/ItemFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/arosas/appfacturas/modelos/ItemFactura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/arosas/appfacturas/modelos/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/arosas/appfacturas/modelos/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

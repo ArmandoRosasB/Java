@@ -1,5 +1,6 @@
 package org.arosas.appfacturas.modelos;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Factura {
@@ -65,5 +66,38 @@ public class Factura {
         if (indiceItems < MAX_ITEMS){
             items[indiceItems++] = item;
         }
+    }
+
+    public double calcularTotal() {
+        double total = 0;
+        for(ItemFactura item : items){
+            if (item == null) continue;
+            total += item.calcularImporte();
+        }
+        return total;
+    }
+
+    public String verDetalle(){
+        SimpleDateFormat df = new SimpleDateFormat("dd 'de' MMMM 'del' yyyy");
+        StringBuilder sb = new StringBuilder("Factura Numero ").append(folio)
+                .append("\nFecha de emision: ").append(df.format(this.fecha))
+                .append("\nCliente: ").append(this.cliente.getNombre())
+                .append("\t NIF: ").append(this.cliente.getNif())
+                .append("\n\nDescripcion: ").append(this.descripcion)
+                .append('\n')
+                .append("\n#\tNombre\t$\tCantidad\tTotal");
+
+        for(ItemFactura item: items){
+            if (item == null) continue;
+            sb.append("\n").append(item.getProducto().getCodigo())
+                    .append('\t').append(item.getProducto().getNombre())
+                    .append('\t').append(item.getProducto().getPrecio())
+                    .append('\t').append(item.getCantidad())
+                    .append('\t').append(item.calcularImporte());
+        }
+
+        sb.append("\nTotal: ").append(this.calcularTotal());
+
+        return sb.toString();
     }
 }
